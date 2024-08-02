@@ -1,0 +1,6 @@
+voidrPrint(Node head){
+  if(head==null)
+     return;
+  Sysem.out.println(head.data + " ");
+  rPrint(head.next);
+  }
